@@ -1,5 +1,18 @@
 # Workshop WordPress
 
+## Présentation
+
+Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpress et la créations d'un thême personaliser.
+
+- [1. Introduction](./01-Introduction.md)
+- [2. Mise en place](./02-Mise-en-place.md)
+- [3. Bases](./03-Bases.md)
+- [4. Dashboard](./04-Dashboard.md)
+- [5. Templates hierachie](./05-Templates-hIerachie.md)
+- [6. Approfondissements](./06-Approfondissements.md)
+- [7. Menu et side bar](./07-Menus-&-sidebar.md)
+
+
 ## Liens
 
 [Download Wordpress](https://wordpress.org/download/)

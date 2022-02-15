@@ -25,3 +25,12 @@ p {
     width: 50em;
 }
 
+.menu {
+    position: fixed;
+    top: 0px;
+}
+
+
+.admin-bar .menu {
+ top: 32px; /* on prend en compte le décalage */
+}
