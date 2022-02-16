@@ -8,7 +8,7 @@ Mais pour le moment, comme l'on n'a pas déclaré de menus dans notre thême, vo
 
 POur déclarer un emplacement de menu écrivez dans functions.php :
 
-```
+```PHP
 <?php 
 
 register_nav_menus( array(
@@ -24,7 +24,7 @@ On vient de déclarer nos emplacements de menu, ce qui aura pour effet d’affic
 
 Inscrivez dans header : 
 
-```
+```PHP
 <body <?php body_class( 'site' ); ?>>
 
   <header class="site__header">
@@ -44,7 +44,7 @@ Inscrivez dans header :
 
 Occupons-nous désormais du footer :
 
-```
+```PHP
 <footer class="site__footer">
 
   <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
@@ -60,7 +60,7 @@ Occupons-nous désormais du footer :
 
 Si on le souhaite, on peu ajouter un moteur de recherche dans le header grâce à ce code : 
 
-```
+```PHP
 <?php get_search_form(); ?>
 ```
 
@@ -68,7 +68,7 @@ Si on le souhaite, on peu ajouter un moteur de recherche dans le header grâce �
 
 Pour déclarer une sidebar, c'est aussi simple que de déclarer un menu :
 
-```
+```PHP
 <?php 
 
 register_sidebar( array(
@@ -82,9 +82,9 @@ register_sidebar( array(
 
 ### Afficher la sidebar.
 
-POur afficher la sidebar, rendez-vous dans archives :
+Pour afficher la sidebar, rendez-vous dans archives :
 
-```
+```PHP
 <?php get_header(); ?>
 
  <h1 class="site__heading">Le blog</h1>
@@ -124,3 +124,5 @@ POur afficher la sidebar, rendez-vous dans archives :
 
 - [6. Approfondissements](./06-Approfondissements.md)
 - [Conclusions](./conclusion.md)
+
+![](https://media.giphy.com/media/ro08ZmQ1MeqZypzgDN/giphy.gif)
