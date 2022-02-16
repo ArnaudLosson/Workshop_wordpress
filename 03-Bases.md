@@ -4,7 +4,8 @@
 
 Dans le css indiquer : 
 
-```/*
+```CSS
+/*
 Theme Name: le nom de votre thème
 Theme URI: https://Votre Thème.io
 Author: votre Nom
@@ -17,18 +18,20 @@ Version: 1.0
 
 Dans l'index.php indiquer :
 
-```<!DOCTYPE html>
-<html>
-<head></head>
-<body>
- <h1>Hello World !</h1>
-</body>
+```HTML
+<!DOCTYPE html>
+ <html>
+  <head></head>
+ <body>
+  <h1>Hello World !</h1>
+ </body>
 </html>
 ```
 
 Dans functions.php indiquer : 
 
-```<?php 
+```PHP
+<?php 
 
 // Ajoute la prise en chager des images mises en avant
 add_theme_support('post-thumbnails');
@@ -46,7 +49,7 @@ Créer ensuite les fichiers suivants: -header.php
 
 Dans le header, inscrivez :
 
-```
+```PHP
 <!DOCTYPE html>
 
 <html <?php language_attributes(); ?>>
@@ -69,7 +72,7 @@ Dans le header, inscrivez :
 
 Dans le footer indiquer : 
 
-```
+```PHP
 <?php wp_footer(); ?>
 
 </body>
@@ -79,7 +82,7 @@ Dans le footer indiquer :
 
 Modifier ensuite index.php et mettez : 
 
-```
+```PHP
 <?php get_header(); ?>
 
 <h1>Coucou</h1>
@@ -89,7 +92,7 @@ Modifier ensuite index.php et mettez :
 
 Dans style.css indiquer : 
 
-```
+```PHP
 .menu {
     position: fixed;
     top: 0px;
@@ -103,7 +106,7 @@ Dans style.css indiquer :
 
 Modifier ensuite le header avec le code suivant : 
 
-```
+```PHP
 <body <?php body_class(); ?>>
 
   <header class="header">
@@ -116,6 +119,8 @@ Modifier ensuite le header avec le code suivant :
 
   </header>
   ```
+  
+ ![](https://media.giphy.com/media/149eCxEQPfhwyY/giphy.gif)
 
   ---
 
