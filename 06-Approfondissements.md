@@ -11,7 +11,7 @@ Créer les fichiers suivants:
 
 Dans le fichier single.php mettez:
 
-```
+```PHP
 
 <?php get_header(); ?>
 
@@ -37,7 +37,7 @@ La boucle WordPress est le mécanisme matérialisé par un petit bout de code PH
 
 copier cela dans front-page.php et dans page.php :
 
-```
+```PHP
 <?php get_header(); ?>
 
  <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
@@ -56,7 +56,7 @@ copier cela dans front-page.php et dans page.php :
 
 Ecrivez dans archive.php et home.php :
 
-```
+```PHP
 
 <?php get_header(); ?>
 
@@ -100,9 +100,11 @@ Heureusement pour nous, WordPress nous propose quelques solutions pour cela, don
 
 Rajouter ceci dans home.php :
 
-```
+```PHP
 <?php get_template_part('archive'); ?>
 ```
+
+![](https://media.giphy.com/media/HhI4bOgiJ6RfG/giphy.gif)
 
 ---
 
