@@ -6,6 +6,8 @@
 ### Templates simplifie
 ![Templates simplifie](./img/template-hierarchy-simplifie.png.webp)
 
+![](https://c.tenor.com/UniGtspR-BcAAAAC/damage-thats-a-lot-of-damage.gif)
+
 ---
 
 - [4. Dashboard](./04-Dashboard.md)
