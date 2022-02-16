@@ -31,6 +31,9 @@ Si vous rencontrer des problèmes pour changer la langue de WP, télécharger de
 - sudo chown -R user wp-content/plugings/
 - sudo chmod 775 wp-content
 - sudo chown -R user wp-content/content/
+
+![](https://media.giphy.com/media/l4FATJpd4LWgeruTK/giphy.gif)
+
 ---
 
 - [1. Introduction](./01-Introduction.md)
