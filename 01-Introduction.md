@@ -22,6 +22,6 @@ Très accessibles, les CMS représentent un vrai gain de temps et d'énergie pou
 
 ---
 
-[](https://media.giphy.com/media/L3X9GvVhP1nY23Ah6u/giphy.gif)
+![](https://media.giphy.com/media/L3X9GvVhP1nY23Ah6u/giphy.gif)
 
 - [2. Mise en place](./02-Mise-en-place.md)
