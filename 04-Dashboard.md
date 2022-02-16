@@ -35,7 +35,7 @@ Commander à l'extension de créer :
 * Taxonomies : Catégories seulement ;
 * Nombre : 1 seule par article ;
 
-![](https://media.giphy.com/media/Zkw83bfonqWMH79Nm9/giphy.gif)
+![](https://media.giphy.com/media/s9ijJ0AI4JKko/giphy.gif)
 
 ---
 
