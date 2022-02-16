@@ -28,12 +28,12 @@ Une fois installée, une nouvelle entrée apparait en bas du menu WordPress. Cli
 
 Commander à l'extension de créer :
 
-* une vingtaine d'articles.
-* Date : publiés entre il y a un an et aujourd’hui (entrez les dates manuellement) ;
-* Post Type : dans les articles ;
-* Auteur : vous-même ;
-* Taxonomies : Catégories seulement ;
-* Nombre : 1 seule par article ;
+* une vingtaine d'articles
+* Date : publiés entre il y a un an et aujourd’hui (entrez les dates manuellement)
+* Post Type : dans les articles
+* Auteur : vous-même
+* Taxonomies : Catégories seulement
+* Nombre : 1 seule par article
 
 ![](https://media.giphy.com/media/s9ijJ0AI4JKko/giphy.gif)
 

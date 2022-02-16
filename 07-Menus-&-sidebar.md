@@ -6,7 +6,7 @@ Il y a deux façons de gérer les menus dans WordPress, soit en passant par Appa
 
 Mais pour le moment, comme l'on n'a pas déclaré de menus dans notre thême, vous ne trouverez pas ces entrées dans le Dashboard WordPress.
 
-POur déclarer un emplacement de menu écrivez dans functions.php :
+POur déclarer un emplacement de menu écrivez dans `functions.php` :
 
 ```PHP
 <?php 
@@ -82,7 +82,7 @@ register_sidebar( array(
 
 ### Afficher la sidebar.
 
-Pour afficher la sidebar, rendez-vous dans archives :
+Pour afficher la sidebar, rendez-vous dans `archives.php` :
 
 ```PHP
 <?php get_header(); ?>

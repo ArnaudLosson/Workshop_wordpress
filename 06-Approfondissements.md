@@ -9,7 +9,7 @@ Créer les fichiers suivants:
 * page.php
 * single.php
 
-Dans le fichier single.php mettez:
+Dans le fichier `single.php` mettez:
 
 ```PHP
 
@@ -21,7 +21,7 @@ Dans le fichier single.php mettez:
 
 ```
 
-Dans le fichiers archive inscrivez: 
+Dans le fichiers `archive.php` inscrivez: 
 
 ```PHP
 <?php get_header(); ?>
@@ -33,9 +33,9 @@ Dans le fichiers archive inscrivez:
 
 ## La boucle Wordpress
 
-La boucle WordPress est le mécanisme matérialisé par un petit bout de code PHP qui permet d’afficher les données entrées via l’interface d’administration. Elle permet de préparer les données (titre, contenu, catégories, lien, image à la Une…) et de les appeler via des fonctions dédiées au nom explicite, comme the_content().
+La boucle WordPress est le mécanisme matérialisé par un petit bout de code PHP qui permet d’afficher les données entrées via l’interface d’administration. Elle permet de préparer les données (titre, contenu, catégories, lien, image à la Une…) et de les appeler via des fonctions dédiées au nom explicite, comme `the_content()`.
 
-copier cela dans front-page.php et dans page.php :
+copier cela dans `front-page.php` et dans `page.php` :
 
 ```PHP
 <?php get_header(); ?>
@@ -54,7 +54,7 @@ copier cela dans front-page.php et dans page.php :
 
 ## lister les dix derniers articles
 
-Ecrivez dans archive.php et home.php :
+Ecrivez dans `archive.php` et `home.php` :
 
 ```PHP
 
@@ -96,7 +96,7 @@ Ecrivez dans archive.php et home.php :
 
 Un des concepts de la programmation est Don’t Repeat Yourself (DRY) et rappelle qu’il ne faut pas écrire 2 fois le même code pour faire une seule chose.
 
-Heureusement pour nous, WordPress nous propose quelques solutions pour cela, dont la fonction get_template_part() qui permet d’appeler un sous-template pouvant contenir ce que vous voulez, et réutilisable à l’infini.
+Heureusement pour nous, WordPress nous propose quelques solutions pour cela, dont la fonction `get_template_part()` qui permet d’appeler un sous-template pouvant contenir ce que vous voulez, et réutilisable à l’infini.
 
 Rajouter ceci dans home.php :
 

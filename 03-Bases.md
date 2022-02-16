@@ -2,7 +2,7 @@
 
 ## CSS et index.php
 
-Dans le css indiquer : 
+Dans le `style.css` indiquer : 
 
 ```CSS
 /*
@@ -16,7 +16,7 @@ Version: 1.0
 */
 ```
 
-Dans l'index.php indiquer :
+Dans l'`index.php` indiquer :
 
 ```HTML
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ Dans l'index.php indiquer :
 </html>
 ```
 
-Dans functions.php indiquer : 
+Dans `functions.php` indiquer : 
 
 ```PHP
 <?php 
@@ -40,14 +40,15 @@ add_theme_support('post-thumbnails');
 add_theme_support('title-tag');
 ```
 
-Maintenant, il ne vous reste plus qu'a activé votre thème. Pour cela rendez-vous dans la rubrique Apparence / Thèmes de votre interface d’administration, sélectionner votre thème et cliquer sur activé.
+Maintenant, il ne vous reste plus qu'a activé votre thème. Pour cela rendez-vous dans la rubrique Apparence > Thèmes de votre interface d’administration, sélectionner votre thème et cliquer sur activé.
 
 ## Header et Footer.
 
-Créer ensuite les fichiers suivants: -header.php
-                                     -footer.php
+Créer ensuite les fichiers suivants:
+- header.php
+- footer.php
 
-Dans le header, inscrivez :
+Dans le `header.php`, inscrivez :
 
 ```PHP
 <!DOCTYPE html>
@@ -70,7 +71,7 @@ Dans le header, inscrivez :
     <?php wp_body_open(); ?>
 ```
 
-Dans le footer indiquer : 
+Dans le `footer.php` indiquer : 
 
 ```PHP
 <?php wp_footer(); ?>
@@ -80,7 +81,7 @@ Dans le footer indiquer :
 </html>
 ```
 
-Modifier ensuite index.php et mettez : 
+Modifier ensuite `index.php` et mettez : 
 
 ```PHP
 <?php get_header(); ?>
@@ -90,7 +91,7 @@ Modifier ensuite index.php et mettez :
 <?php get_footer(); ?>
 ```
 
-Dans style.css indiquer : 
+Dans `style.css` indiquer : 
 
 ```PHP
 .menu {
@@ -104,7 +105,7 @@ Dans style.css indiquer :
 }
 ```
 
-Modifier ensuite le header avec le code suivant : 
+Modifier ensuite le `header.php` avec le code suivant : 
 
 ```PHP
 <body <?php body_class(); ?>>
