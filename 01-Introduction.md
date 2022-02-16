@@ -21,7 +21,7 @@ Très accessibles, les CMS représentent un vrai gain de temps et d'énergie pou
 * Construire un site évolutif
 
 ---
+- [2. Mise en place](./02-Mise-en-place.md)
+
 
 ![](https://media.giphy.com/media/L3X9GvVhP1nY23Ah6u/giphy.gif)
-
-- [2. Mise en place](./02-Mise-en-place.md)
