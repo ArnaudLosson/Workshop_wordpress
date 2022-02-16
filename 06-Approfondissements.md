@@ -23,7 +23,7 @@ Dans le fichier single.php mettez:
 
 Dans le fichiers archive inscrivez: 
 
-```
+```PHP
 <?php get_header(); ?>
 
  <h1>ARCHIVE</h1>
