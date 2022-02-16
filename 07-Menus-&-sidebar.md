@@ -22,7 +22,7 @@ register_nav_menus( array(
 
 On vient de déclarer nos emplacements de menu, ce qui aura pour effet d’afficher le menu Apparence > Menu dans notre administration WordPress. On va alors pouvoir créer un nouveau menu, et l’assigner à notre emplacement.
 
-Inscrivez dans header : 
+Inscrivez dans `header.php` : 
 
 ```PHP
 <body <?php body_class( 'site' ); ?>>
@@ -42,7 +42,7 @@ Inscrivez dans header :
 
 ## Footer et moteur de recherche.
 
-Occupons-nous désormais du footer :
+Occupons-nous désormais du `footer.php` :
 
 ```PHP
 <footer class="site__footer">
@@ -82,7 +82,7 @@ register_sidebar( array(
 
 ### Afficher la sidebar.
 
-Pour afficher la sidebar, rendez-vous dans `archives.php` :
+Pour afficher la sidebar, rendez-vous dans `archive.php` :
 
 ```PHP
 <?php get_header(); ?>
