@@ -20,20 +20,30 @@ Depuis votre interface d’administration, rendez-vous dans Extensions > Ajouter
 
 Télécharger-le et activer-le ensuite.
 
-FakerPress va nous gagnez du temps en créeant de faux articles en Lorem Ipsum, vous pouvez bien sur créer les votres a votre convenances.
+FakerPress va nous gagnez du temps en créeant de faux articles en Lorem Ipsum, vous pouvez bien sur créer les votres à votre convenances.
 
 ### Utilisation
 
-Une fois installée, une nouvelle entrée apparait en bas du menu WordPress. Cliquez sur cette entrée FakerPress > Articles.
+Une fois installée, une nouvelle entrée apparait en bas du menu WordPress. Cliquez sur cette entrée FakerPress > Articles.  
+
+![](./img/faker.png)
 
 Commander à l'extension de créer :
 
 * une vingtaine d'articles
 * Date : publiés entre il y a un an et aujourd’hui (entrez les dates manuellement)
-* Post Type : dans les articles
-* Auteur : vous-même
+* Post Type : dans les articles  
+
+![](./img/quantity.png)
+
+* Auteur : vous-même  
+
+![](./img/author.png)
+
 * Taxonomies : Catégories seulement
 * Nombre : 1 seule par article
+
+![](./img/taxinomie.png)
 
 ![](https://media.giphy.com/media/s9ijJ0AI4JKko/giphy.gif)
 
