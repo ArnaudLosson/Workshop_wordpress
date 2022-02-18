@@ -20,6 +20,50 @@ Très accessibles, les CMS représentent un vrai gain de temps et d'énergie pou
 * Développer rapidement la visibilité d'une marque sur le net 
 * Construire un site évolutif
 
+
+## De grands groupes qui utilisent WordPress :
+
+### [The Walt Disney Compagny](https://thewaltdisneycompany.com/)
+
+Le site vitrine de la fameuse entreprise et de la célèbre souris dont l'objectif est de produire et de fournir du divertissement dans le monde entier.
+
+Le site est relativement simple avec plusieurs catégories dont "actualités" qui constitue un blog.
+
+![](./img/thewaltdisney_company.jpg)
+
+
+### [The White House](https://www.whitehouse.gov/)
+
+Le site de la Maison Blanche réunit les dernières actualités concernant le président des États-Unis et les domaines de l’économie, de la sécurité nationale, du budget, de l’immigration et de la santé.
+
+![](./img/The_white_house.png)
+
+
+### [BBC America](https://www.bbcamerica.com/)
+
+BBC America est une chaîne de télévision américaine appartenant à BBC WorldWide. Elle a notamment réalisé les séries Top Gear et Doctor Who.
+
+Le site propose un large panel de vidéos, on retrouve les liens vers les réseaux sociaux et un module de connexion à un espace personnel.
+
+![](./img/BBC_America.png)
+
+
+### D'autres examples :
+
+[Le Royal Monceau Paris](https://www.leroyalmonceau.com/)
+
+[Le blog Playstation](https://blog.fr.playstation.com/)
+
+[Vogue](https://www.vogue.fr/)
+
+[Le groupe Renault](https://www.renaultgroup.com/)
+
+[LVMH (Groupes publiciaire)](https://www.lvmh.fr/)
+
+[The New York Times](https://www.nytimes.com/)
+
+[Bioptimisation 2020](https://www.bioptimisation2020.fr/)
+
 ---
 - [2. Mise en place](./02-Mise-en-place.md)
 
