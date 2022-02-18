@@ -66,7 +66,7 @@ Si on le souhaite, on peu ajouter un moteur de recherche dans le header grâce �
 
 ## Déclarer une sidebar.
 
-Pour déclarer une sidebar, c'est aussi simple que de déclarer un menu :
+Pour déclarer une sidebar, c'est aussi simple que de déclarer un menu, dans `functions.php` :
 
 ```PHP
 <?php 
