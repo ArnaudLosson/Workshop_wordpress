@@ -49,7 +49,7 @@ vous pouvez changer la langue lors du premier lancement de WordPress ou dans les
 
 ## Créer un nouveau thème.
 
-Nous allons nous rendre dans le dossier wp-content/themes de notre site Wordpress et créer un nouveau dossier qui va acceuillir les fichiers de notre thème. Appelez-le comme vous le souhaiter.
+Nous allons nous rendre dans le dossier `wp-content/themes` de notre site Wordpress et créer un nouveau dossier qui va acceuillir les fichiers de notre thème. Appelez-le comme vous le souhaiter.
 
 Créer ensuite les fichiers suivants: 
 - index.php

@@ -123,6 +123,6 @@ Pour afficher la sidebar, rendez-vous dans `archive.php` :
 ---
 
 - [6. Approfondissements](./06-Approfondissements.md)
-- [Conclusions](./conclusion.md)
+- [8. Site en Wordpress](./08-Site-en-Wordpress.md)
 
 ![](https://media.giphy.com/media/ro08ZmQ1MeqZypzgDN/giphy.gif)
