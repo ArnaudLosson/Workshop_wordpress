@@ -12,40 +12,39 @@ Les articles crées précédement devrait s'afficher de manière simples.
 
 Le site présenté dans le dossier `Fictional University` est un HTML/CSS classique mais qui nous premettra de tester l'intégration dans Wordpress, vous pouvez ouvrir le site sur votre navigateur ou dans IDE pour voir le résultat escompté.  
 
-Nous allons commencé avec le header, copier la partie entre les balise `<header>` se trouvand dans l'`index.html` et copiez le dans le `header.php` de notre nouveau theme comme ceci :
+Nous allons commencé avec le header, copier la partie entre les balise `<header>` se trouvant dans l'`index.html` et copiez le dans le `header.php` de notre nouveau theme comme ceci :
 
 ```PHP
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php wp_head(); ?>
-    </head>
+  <?php wp_head(); ?>
     <body>
         <header class="site-header">
-        <div class="container">
-            <h1 class="school-logo-text float-left">
-            <a href="#"><strong>Fictional</strong> University</a>
-            </h1>
-            <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-            <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-            <div class="site-header__menu group">
-            <nav class="main-navigation">
-                <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Campuses</a></li>
-                <li><a href="#">Blog</a></li>
-                </ul>
-            </nav>
-            <div class="site-header__util">
-                <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
-                <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
-                <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-            </div>
-            </div>
-        </div>
+          <div class="container">
+              <h1 class="school-logo-text float-left">
+                <a href="#"><strong>Fictional</strong> University</a>
+              </h1>
+              <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+              <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
+              <div class="site-header__menu group">
+                <nav class="main-navigation">
+                    <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Campuses</a></li>
+                    <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="site-header__util">
+                    <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
+                    <a href="#" class="btn btn--small btn--dark-orange float-left">Sign Up</a>
+                    <span class="search-trigger js-search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
+                </div>
+              </div>
+          </div>
         </header>
 
 ```
@@ -128,43 +127,43 @@ Et terminez ensuite par le contenu de la page dans l'`index.php` comme ceci :
     <?php get_header(); ?>
 
     <div class="page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(images/library-hero.jpg)"></div>
-    <div class="page-banner__content container t-center c-white">
-    <h1 class="headline headline--large">Welcome!</h1>
-    <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
-    <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re interested in?</h3>
-    <a href="#" class="btn btn--large btn--blue">Find Your Major</a>
-    </div>
+      <div class="page-banner__bg-image" style="background-image: url(images/library-hero.jpg)"></div>
+      <div class="page-banner__content container t-center c-white">
+        <h1 class="headline headline--large">Welcome!</h1>
+        <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
+        <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re interested in?</h3>
+        <a href="#" class="btn btn--large btn--blue">Find Your Major</a>
+      </div>
     </div>
 
     <div class="full-width-split group">
-    <div class="full-width-split__one">
-    <div class="full-width-split__inner">
-        <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
+      <div class="full-width-split__one">
+        <div class="full-width-split__inner">
+            <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
 
-        <div class="event-summary">
-        <a class="event-summary__date t-center" href="#">
-            <span class="event-summary__month">Mar</span>
-            <span class="event-summary__day">25</span>
-        </a>
-        <div class="event-summary__content">
-            <h5 class="event-summary__title headline headline--tiny"><a href="#">Poetry in the 100</a></h5>
-            <p>Bring poems you&rsquo;ve wrote to the 100 building this Tuesday for an open mic and snacks. <a href="#" class="nu gray">Learn more</a></p>
-        </div>
-        </div>
-        <div class="event-summary">
-        <a class="event-summary__date t-center" href="#">
-            <span class="event-summary__month">Apr</span>
-            <span class="event-summary__day">02</span>
-        </a>
-        <div class="event-summary__content">
-            <h5 class="event-summary__title headline headline--tiny"><a href="#">Quad Picnic Party</a></h5>
-            <p>Live music, a taco truck and more can found in our third annual quad picnic day. <a href="#" class="nu gray">Learn more</a></p>
-        </div>
-        </div>
+          <div class="event-summary">
+            <a class="event-summary__date t-center" href="#">
+                <span class="event-summary__month">Mar</span>
+                <span class="event-summary__day">25</span>
+            </a>
+            <div class="event-summary__content">
+                <h5 class="event-summary__title headline headline--tiny"><a href="#">Poetry in the 100</a></h5>
+                <p>Bring poems you&rsquo;ve wrote to the 100 building this Tuesday for an open mic and snacks. <a href="#" class="nu gray">Learn more</a></p>
+            </div>
+          </div>
+          <div class="event-summary">
+            <a class="event-summary__date t-center" href="#">
+                <span class="event-summary__month">Apr</span>
+                <span class="event-summary__day">02</span>
+            </a>
+            <div class="event-summary__content">
+                <h5 class="event-summary__title headline headline--tiny"><a href="#">Quad Picnic Party</a></h5>
+                <p>Live music, a taco truck and more can found in our third annual quad picnic day. <a href="#" class="nu gray">Learn more</a></p>
+            </div>
+          </div>
 
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">View All Events</a></p>
-    </div>
+      </div>
     </div>
     <div class="full-width-split__two">
     <div class="full-width-split__inner">
@@ -235,6 +234,44 @@ Et terminez ensuite par le contenu de la page dans l'`index.php` comme ceci :
 ?> 
 
 ```
+Voilà l'`HTML` est affiché mais n'a pas de style, nous allons donc l'importé de la même manière, copiez tout le contenu du `style.css` et collez le dans le style a la base de votre theme, en dessous des informations en commentaires, comme ceci :
+
+```CSS
+
+/*
+Theme Name: Fictional University
+Description: Created theme with static site
+Author: You
+Author URI: Your url
+Version: 1.0
+*/
+
+
+body {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: #0d3b66;
+}
+a:hover {
+  text-decoration: none;
+}
+
+...
+
+```
+
+Le style ne s'affiche pas encore mais nous allons régler ça dans la suite.
+
+
 ---
 
 - [7. Menu et side bar](./07-Menus-&-sidebar.md)
+- [9. Intégration de lien style et js](./09-Style-&-js.md)
