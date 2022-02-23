@@ -20,7 +20,7 @@ Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpres
 
 ### Lesson
 
-[Workshop](https://www.canva.com/design/DAE4DBU_5ME/2XcnMs8czc2hwwq9ome_nw/view?utm_content=DAE4DBU_5ME&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1)
+[Workshop](https://www.canva.com/design/DAE5KkKIVtQ/X3Kml9sDvfnQoi6hOaeTRw/view?utm_content=DAE5KkKIVtQ&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
 
 ### Codex
 

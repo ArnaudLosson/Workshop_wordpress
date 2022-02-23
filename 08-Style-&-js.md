@@ -2,7 +2,7 @@
 
 ## Style
 
-Pour continuer, dans le dossier `Fictional University` vous trouverez un dossier `build` contenant des fichiers `css` et `js`, copiez tout le contenu du `style.css` et collez le dans le style a la base de votre theme, en dessous des informations en commentaires, comme ceci :
+Pour continuer, dans le dossier `Fictional University` vous trouverez un dossier `build` contenant des fichiers `css` et `js`, copiez tout le contenu du `style.css` et collez le dans le style a la base de votre thème, en dessous des informations en commentaires, comme ceci :
 
 ```CSS
 
@@ -50,7 +50,7 @@ function university_files() {
 add_action('wp_enqueue_scripts', 'university_files');
 
 ```
-entre les parenthèses `wp_enqueue_Style()` nous avons rajouter deux conditions `(a, b)`, le `a` est juste un nom pour mieux si retrouver et le `b` et la fonction demandé, dans ce cas la récupération du style
+Entre les parenthèses `wp_enqueue_Style()` nous avons rajouter deux conditions `(a, b)`, le `a` est juste un nom pour mieux si retrouver et le `b` et la fonction demandé, dans ce cas la récupération du style
 
 Le style devrait maintenant apparaitre mais il manque encore la police d'écriture, les logos en bas de pages et les photos
 
@@ -72,9 +72,9 @@ Commencons par la police, habituellement nous plaçons les import de police soit
 
 ```
 
-Copiez justa avant le premier `/` et jusqu'à la fin du lien, puis copiez le tout dans la conditions présenter précédemments
+Copiez juste avant le premier `/` et jusqu'à la fin du lien, puis copiez le tout dans la conditions présenter précédemments.
 
-cela devrait ressemblez à ça:
+Cela devrait ressemblez à ça:
 
 ```PHP
 
@@ -116,7 +116,7 @@ Bien passons maintenant au images.
 
 ## Images et slides
 
-Dans le dossier `Fictional University` vous trouverez un dossier images contenant tous celle que nous utiliseront, vous pouvez le copiez dans votre dossier theme. 
+Dans le dossier `Fictional University` vous trouverez un dossier images contenant tous celle que nous utiliseront, vous pouvez le copiez dans votre dossier thème. 
 
 Si vous regardez votre site maintenant surprise, les images n'apparaissent pas car Wordpress les importes d'un autre manières que nous allons voir tout de suite.
 

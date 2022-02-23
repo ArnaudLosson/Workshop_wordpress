@@ -2,9 +2,11 @@
 
 ## Nouveau Départ
 
-Pour cette partie nous allons reprendre un nouveau theme, pour ganger du temps je vous invite à allez dans le dossier `Fictional University` et de récupérer le dossier nommé `Fictional University Theme`.  
+Pour cette partie nous allons reprendre un nouveau thème, pour ganger du temps je vous invite à allez dans le dossier `Fictional University` et de récupérer le dossier nommé `Fictional University Theme`.  
 
 Placez le ensuite dans le dossier `wp-content/themes`, allez dans le dashboard Wordpress et activé le.
+
+Modifiez aussi les options de lectures dans Réglages > Lecture et afficher les derniers articles.
 
 Les articles crées précédement devrait s'afficher de manière simples.
 
@@ -12,7 +14,7 @@ Les articles crées précédement devrait s'afficher de manière simples.
 
 Le site présenté dans le dossier `Fictional University` est un HTML/CSS classique mais qui nous premettra de tester l'intégration dans Wordpress, vous pouvez ouvrir le site sur votre navigateur ou dans IDE pour voir le résultat escompté.  
 
-Nous allons commencé avec le header, copier la partie entre les balise `<header>` se trouvant dans l'`index.html` et copiez le dans le `header.php` de notre nouveau theme comme ceci :
+Nous allons commencé avec le header, copier la partie entre les balises `<header>` se trouvant dans l'`index.html` et copiez le dans le `header.php` de notre nouveau thème comme ceci :
 
 ```PHP
 
@@ -50,7 +52,7 @@ Nous allons commencé avec le header, copier la partie entre les balise `<header
 ```
 Si vous observez votre site le header devrais s'afficher avec les menus.
 
-ensuite fesont de même avec le footer, récupérez la balsie `<footer>` et placez la dans le fichier `footer.php` :
+ensuite fesont de même avec le footer, récupérez la balise `<footer>` et placez la dans le fichier `footer.php` :
 
 ```PHP
     <footer class="site-footer">

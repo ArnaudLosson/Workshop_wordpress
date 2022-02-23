@@ -4,7 +4,7 @@
 
 Il y a deux façons de gérer les menus dans WordPress, soit en passant par Apparance > Menus, soit via le customizer dans Apparences > Personnaliser > Menus.
 
-Mais pour le moment, comme l'on n'a pas déclaré de menus dans notre thême, vous ne trouverez pas ces entrées dans le Dashboard WordPress.
+Mais pour le moment, comme l'on n'a pas déclaré de menus dans notre thème, vous ne trouverez pas ces entrées dans le Dashboard WordPress.
 
 POur déclarer un emplacement de menu écrivez dans `functions.php` :
 
@@ -22,7 +22,7 @@ register_nav_menus( array(
 
 On vient de déclarer nos emplacements de menu, ce qui aura pour effet d’afficher le menu Apparence > Menu dans notre administration WordPress. On va alors pouvoir créer un nouveau menu, et l’assigner à notre emplacement.
 
-Inscrivez dans `header.php` : 
+Modifiez le `header.php` : 
 
 ```PHP
 <body <?php body_class( 'site' ); ?>>
@@ -39,6 +39,8 @@ Inscrivez dans `header.php` :
 
   </header>
 ```
+
+vous pouvez maintenant aller dans le Dashboard et les menus devraient être accesible et modifiable, nous vous laissons le personalisé.
 
 ## Footer et moteur de recherche.
 

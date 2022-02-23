@@ -53,7 +53,7 @@ Pour une meilleur optimisation WordPress permet de découper son site en plusieu
 
 Voici la forme que ça prend : 
 
-[Templates Hierachie](./Templates-hIerachie.md)
+[Templates Hierachie](./Templates-Hierachie.md)
 
 
 
@@ -84,7 +84,7 @@ Dans le `header.php`, inscrivez :
     <?php wp_body_open(); ?>
 ```
 
-Les fonctions de WordPress intégrés permettent de bien séparer les différents éléments et à WordPress de les repérers  
+Les fonctions de WordPress intégrés permettent de bien séparer les différents éléments et à WordPress de les repérers. 
 
 Continuons dans le `footer.php` : 
 
@@ -122,6 +122,8 @@ ajoutez dans le `style.css`ces quelques lignes :
 }
 ```
 Nous allons maintenant ajouter un logo a notre blog
+
+Trouver une image qui vous plait.
 
 Dans le `header.php` ajoutez le code suivant : 
 
