@@ -1,6 +1,6 @@
 # 04 - Dashboard.
 
-## Créations de page.
+## Créations de pages.
 
 Maintenant rendez-vous dans le dashboard à la section Pages > Ajouter et créez une page Accueil, une page Blog, puis une page Contact. Indiquez pour chacune le titre, au moins un paragraphe puis publiez-les.
 
@@ -50,4 +50,4 @@ Commander à l'extension de créer :
 ---
 
 - [3. Bases](./03-Bases.md)
-- [5. Templates hierachie](./05-Templates-hIerachie.md)
+- [5. Approfondissements](./06-Approfondissements.md)

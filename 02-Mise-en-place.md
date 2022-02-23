@@ -6,9 +6,9 @@ Pour commencer, nous allons télécharger Wordpress sur le site officiel de ce d
 
 [Download Wordpress](https://wordpress.org/download/)
 
-Ensuite, nous allons glisser le fichier au même endroit que pour les exercices php, dans le var puis l'html. En effet, notre site tournera sur le localhost.
+Ensuite, nous allons glisser le fichier au même endroit que pour les exercices php, exemple: /var/www/html/firstWordPress sur Linux. En effet, notre site tournera sur le localhost.
 
-Enfin, nous allons renommer notre dossier en "Site Wordpress1" afin de tous avoir le même nom.
+Enfin, nous allons renommer notre dossier en "firstWordPress" afin de tous avoir le même nom.
 
 ## Database 
 
@@ -55,7 +55,9 @@ Créer ensuite les fichiers suivants:
 - index.php
 - style.css
 - functions.php
-- ajouter une image nomer screenshot.png
+- ajouter une image nommer screenshot.png
+
+Ces Fichiers sont la base de votre thème et sont indispensable.
 
 
 ## En cas de problèmes d'écriture !

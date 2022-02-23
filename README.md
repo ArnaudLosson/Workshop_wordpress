@@ -8,11 +8,10 @@ Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpres
 - [2. Mise en place](./02-Mise-en-place.md)
 - [3. Bases](./03-Bases.md)
 - [4. Dashboard](./04-Dashboard.md)
-- [5. Templates hierachie](./05-Templates-hIerachie.md)
-- [6. Approfondissements](./06-Approfondissements.md)
-- [7. Menu et side bar](./07-Menus-&-sidebar.md)
-- [8. Site en Wordpress](./08-Site-en-Wordpress.md)
-- [9. Intégration de lien style et js](./09-Style-&-js.md)
+- [5. Approfondissements](./06-Approfondissements.md)
+- [6. Menu et side bar](./07-Menus-&-sidebar.md)
+- [7. Site en Wordpress](./08-Site-en-Wordpress.md)
+- [8. Intégration de lien style et js](./09-Style-&-js.md)
 - [Conclusions](./conclusion.md)
 
 ## Liens
