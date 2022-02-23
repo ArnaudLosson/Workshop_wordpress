@@ -12,6 +12,7 @@ Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpres
 - [6. Approfondissements](./06-Approfondissements.md)
 - [7. Menu et side bar](./07-Menus-&-sidebar.md)
 - [8. Site en Wordpress](./08-Site-en-Wordpress.md)
+- [9. Intégration de lien style et js](./09-Style-&-js.md)
 - [Conclusions](./conclusion.md)
 
 ## Liens
