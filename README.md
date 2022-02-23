@@ -11,6 +11,7 @@ Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpres
 - [5. Templates hierachie](./05-Templates-hIerachie.md)
 - [6. Approfondissements](./06-Approfondissements.md)
 - [7. Menu et side bar](./07-Menus-&-sidebar.md)
+- [8. Site en Wordpress](./08-Site-en-Wordpress.md)
 - [Conclusions](./conclusion.md)
 
 ## Liens

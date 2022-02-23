@@ -8,7 +8,7 @@ Placez le ensuite dans le dossier `wp-content/themes`, allez dans le dashboard W
 
 Les articles crées précédement devrait s'afficher de manière simples.
 
-## HTML et CSS
+## HTML 
 
 Le site présenté dans le dossier `Fictional University` est un HTML/CSS classique mais qui nous premettra de tester l'intégration dans Wordpress, vous pouvez ouvrir le site sur votre navigateur ou dans IDE pour voir le résultat escompté.  
 
@@ -234,41 +234,7 @@ Et terminez ensuite par le contenu de la page dans l'`index.php` comme ceci :
 ?> 
 
 ```
-Voilà l'`HTML` est affiché mais n'a pas de style, nous allons donc l'importé de la même manière, copiez tout le contenu du `style.css` et collez le dans le style a la base de votre theme, en dessous des informations en commentaires, comme ceci :
-
-```CSS
-
-/*
-Theme Name: Fictional University
-Description: Created theme with static site
-Author: You
-Author URI: Your url
-Version: 1.0
-*/
-
-
-body {
-  color: #333;
-  font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
-  position: relative;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-a {
-  color: #0d3b66;
-}
-a:hover {
-  text-decoration: none;
-}
-
-...
-
-```
-
-Le style ne s'affiche pas encore mais nous allons régler ça dans la suite.
+Voilà l'`HTML` est affiché mais n'a pas de style, nous allons donc l'importé dans la suite =>
 
 
 ---
