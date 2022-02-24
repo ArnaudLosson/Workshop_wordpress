@@ -50,4 +50,4 @@ Commander à l'extension de créer :
 ---
 
 - [3. Bases](./03-Bases.md)
-- [5. Approfondissements](./06-Approfondissements.md)
+- [5. Approfondissements](./05-Approfondissements.md)

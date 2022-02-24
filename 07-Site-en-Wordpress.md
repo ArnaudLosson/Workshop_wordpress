@@ -1,4 +1,4 @@
-# 08 - Crée un site en WordPress
+# 07 - Crée un site en WordPress
 
 ## Nouveau Départ
 
@@ -241,5 +241,5 @@ Voilà l'`HTML` est affiché mais n'a pas de style, nous allons donc l'importé 
 
 ---
 
-- [6. Menu et side bar](./07-Menus-&-sidebar.md)
-- [8. Intégration de lien style et js](./09-Style-&-js.md)
+- [6. Menu et side bar](./06-Menus-&-sidebar.md)
+- [8. Intégration de lien style et js](./08-Style-&-js.md)

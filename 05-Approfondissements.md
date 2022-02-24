@@ -1,4 +1,4 @@
-# 06 - Approfondissements.
+# 05 - Approfondissements.
 
 ## Créations de nouveaux fichiers
 
@@ -109,4 +109,4 @@ Rajouter ceci dans home.php :
 ---
 
 - [4. Dashboard](./04-Dashboard.md)
-- [6. Menu et side bar](./07-Menus-&-sidebar.md)
+- [6. Menu et side bar](./06-Menus-&-sidebar.md)

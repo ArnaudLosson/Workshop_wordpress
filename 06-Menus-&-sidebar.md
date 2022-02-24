@@ -1,4 +1,4 @@
-# 07 - Menus et sidebar.
+# 06 - Menus et sidebar.
 
 ## Les menus dans WordPress.
 
@@ -124,7 +124,7 @@ Pour afficher la sidebar, rendez-vous dans `archive.php` :
 
 ---
 
-- [5. Approfondissements](./06-Approfondissements.md)
-- [7. Site en Wordpress](./08-Site-en-Wordpress.md)
+- [5. Approfondissements](./05-Approfondissements.md)
+- [7. Site en Wordpress](./07-Site-en-Wordpress.md)
 
 ![](https://media.giphy.com/media/ro08ZmQ1MeqZypzgDN/giphy.gif)

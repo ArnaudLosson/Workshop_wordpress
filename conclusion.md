@@ -4,7 +4,7 @@ Voilà, maintenant vous avez la base de votre site Wordpress. Vous savez comment
 
 ---
 
-- [8. Intégration de lien style et js](./09-Style-&-js.md)
+- [8. Intégration de lien style et js](./08-Style-&-js.md)
 
 ![](https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif)
 

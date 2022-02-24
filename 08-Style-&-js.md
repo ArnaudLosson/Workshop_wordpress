@@ -1,4 +1,4 @@
-# 9. Intégration de style et js
+# 8. Intégration de style et js
 
 ## Style
 
@@ -184,5 +184,5 @@ Rafraichissez la page et voilà votre site est bon. GG!
 
 ---
 
-- [7. Site en Wordpress](./08-Site-en-Wordpress.md)
+- [7. Site en Wordpress](./07-Site-en-Wordpress.md)
 - [Conclusions](./conclusion.md)
