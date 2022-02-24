@@ -27,3 +27,10 @@ Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpres
 [Lexique](https://docs.google.com/spreadsheets/d/1vvfcemObRtzV8itPhhfSXNy0e4jM4HEa-7FeuFFnDEw/edit)
 
 [WordPress références](https://developer.wordpress.org/reference/)
+
+
+Créez par : 
+
+- [Ludmila Kowalski](https://github.com/LudmilaKowalski)
+- [Florian Renders](https://github.com/Deepyflo)
+- [Arnaud Losson](https://github.com/ArnaudLosson)
