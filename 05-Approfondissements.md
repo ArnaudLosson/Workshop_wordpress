@@ -21,7 +21,7 @@ Dans le fichier `single.php` mettez:
 
 ```
 
-Dans le fichiers `archive.php` inscrivez: 
+Dans le fichier `archive.php` inscrivez: 
 
 ```PHP
 <?php get_header(); ?>
@@ -35,7 +35,7 @@ Dans le fichiers `archive.php` inscrivez:
 
 La boucle WordPress est le mécanisme matérialisé par un petit bout de code PHP qui permet d’afficher les données entrées via l’interface d’administration. Elle permet de préparer les données (titre, contenu, catégories, lien, image à la Une…) et de les appeler via des fonctions dédiées au nom explicite, comme `the_content()`.
 
-copier cela dans `front-page.php` et dans `page.php` :
+Copier cela dans `front-page.php` et dans `page.php` :
 
 ```PHP
 <?php get_header(); ?>
@@ -94,14 +94,17 @@ Ecrivez dans `archive.php` et `home.php` :
 
 ## Template parts
 
-Un des concepts de la programmation est Don’t Repeat Yourself (DRY) et rappelle qu’il ne faut pas écrire 2 fois le même code pour faire une seule chose.
+Un des concepts de la programmation est Don’t Repeat Yourself (DRY) et rappelle qu’il ne faut pas écrire deux fois le même code pour faire une seule chose.
 
-Heureusement pour nous, WordPress nous propose quelques solutions pour cela, dont la fonction `get_template_part()` qui permet d’appeler un sous-template pouvant contenir ce que vous voulez, et réutilisable à l’infini.
+Heureusement pour nous, WordPress nous propose quelques solutions pour cela, dont la fonction `get_template_part()` qui permet d’appeler un sous-template pouvant contenir ce que vous voulez et réutilisable à l’infini.
 
-Rajouter ceci dans home.php :
+Rajouter ceci dans `home.php` :
 
 ```PHP
-<?php get_template_part('archive'); ?>
+<?php get_header(); ?>
+	<?php get_template_part( 'archive' ); ?>
+ 	<h1>Le Nom de Votre Blog</h1>
+>
 ```
 
 ![](https://media.giphy.com/media/HhI4bOgiJ6RfG/giphy.gif)

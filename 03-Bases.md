@@ -1,10 +1,10 @@
 # 03 - Bases.
 
-Nous allons commencer avec la création d'un Blog simples mais qui vous montrera la majoritée des fonctions de WordPress.
+Nous allons commencer avec la création d'un Blog simple, mais qui vous montrera la majorité des fonctions de WordPress.
 
 ## CSS et index.php
 
-Pour que WordPress affiche votre thème, vous devez indiquez dans le `style.css` indiquer : 
+Pour que WordPress affiche votre thème, vous devez indiquer dans le `style.css` indiquer : 
 
 ```CSS
 /*

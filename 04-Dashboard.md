@@ -6,13 +6,13 @@ Maintenant rendez-vous dans le dashboard à la section Pages > Ajouter et créez
 
 ## Créations de catégories.
 
-Nous allons nous rendre une nouvelle fois dans le dashboard dans Article -> catégories. Créer trois catégories de votre choix.
+Nous allons-nous rendre une nouvelle fois dans le dashboard dans Article -> catégories. Créer trois catégories de votre choix.
 
 Il y a divers exemples de catégories : film, manga, photo, série, famille, amis, vacances, ect.
 
 ## Page d'acceuil.
 
-Par défaut WordPress affiche le blog en page d’accueil et quand on fait un site (et pas qu’un blog) ce n’est pas ce que l’on veut. Du coup en prévision de la suite on va aller changer ça. Rendez-vous dans Réglages > Lecture puis sélectionnez La page d’accueil affiche : Une page statique. Assignez ensuite Accueil en page d’accueil, et Blog en page des articles.
+Par défaut WordPress affiche le blog en page d’accueil et quand on fait un site (et pas qu’un blog) ce n’est pas ce que l’on veut. Du coup en prévision de la suite on va aller changer ça. Rendez-vous dans Réglages > Lecture puis sélectionnez La page d’accueil affiche : Une page statique. Assignez ensuite Accueil en page d’accueil et Blog en page des articles.
 
 ## FakerPress.
 
@@ -20,7 +20,7 @@ Depuis votre interface d’administration, rendez-vous dans Extensions > Ajouter
 
 Télécharger-le et activer-le ensuite.
 
-FakerPress va nous gagnez du temps en créeant de faux articles en Lorem Ipsum, vous pouvez bien sur créer les votres à votre convenances.
+FakerPress va nous faire gagnez du temps en créant de faux articles en Lorem Ipsum, vous pouvez bien sur créer les vôtres à votre convenances.
 
 ### Utilisation
 
@@ -41,7 +41,7 @@ Commander à l'extension de créer :
 ![](./img/author.png)
 
 * Taxonomies : Catégories seulement
-* Nombre : 1 seule par article
+* Nombre : un seule par article
 
 ![](./img/taxinomie.png)
 

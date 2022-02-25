@@ -2,19 +2,19 @@
 
 ## Nouveau Départ
 
-Pour cette partie nous allons reprendre un nouveau thème, pour ganger du temps je vous invite à allez dans le dossier `Fictional University` et de récupérer le dossier nommé `Fictional University Theme`.  
+Pour cette partie nous allons reprendre un nouveau thème, pour gangner du temps je vous invite à allez dans le dossier `Fictional University` et de récupérer le dossier nommé `Fictional University Theme`.  
 
 Placez le ensuite dans le dossier `wp-content/themes`, allez dans le dashboard Wordpress et activé le.
 
 Modifiez aussi les options de lectures dans Réglages > Lecture et afficher les derniers articles.
 
-Les articles crées précédement devrait s'afficher de manière simples.
+Les articles créez précédement devrait s'afficher de manière simples.
 
 ## HTML 
 
-Le site présenté dans le dossier `Fictional University` est un HTML/CSS classique mais qui nous premettra de tester l'intégration dans Wordpress, vous pouvez ouvrir le site sur votre navigateur ou dans IDE pour voir le résultat escompté.  
+Le site présenté dans le dossier `Fictional University` est un HTML/CSS classique, mais qui nous permettra de tester l'intégration dans Wordpress, vous pouvez ouvrir le site sur votre navigateur ou dans IDE pour voir le résultat escompté.  
 
-Nous allons commencé avec le header, copier la partie entre les balises `<header>` se trouvant dans l'`index.html` et copiez le dans le `header.php` de notre nouveau thème comme ceci :
+Nous allons commencé avec le header, copier la partie entre les balises `<header>` se trouvant dans l'`index.html` et copiez-le dans le `header.php` de notre nouveau thème comme ceci :
 
 ```PHP
 
@@ -50,9 +50,9 @@ Nous allons commencé avec le header, copier la partie entre les balises `<heade
         </header>
 
 ```
-Si vous observez votre site le header devrais s'afficher avec les menus.
+Si vous observez votre site, le header devrais s'afficher avec les menus.
 
-ensuite fesont de même avec le footer, récupérez la balise `<footer>` et placez la dans le fichier `footer.php` :
+Ensuite faisons de même avec le footer, récupérez la balise `<footer>` et placez-la dans le fichier `footer.php` :
 
 ```PHP
     <footer class="site-footer">
@@ -236,7 +236,7 @@ Et terminez ensuite par le contenu de la page dans l'`index.php` comme ceci :
 ?> 
 
 ```
-Voilà l'`HTML` est affiché mais n'a pas de style, nous allons donc l'importé dans la suite =>
+Voilà l'`HTML` est affiché mais n'a pas de style, nous allons donc l'importer dans la suite =>
 
 
 ---

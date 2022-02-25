@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpress et la créations d'un thême personaliser.
+Nous allons vous présenter pendant ces huit chapitres l'utilisation de Wordpress et la création d'un thème personnalisé.
 
 - [1. Introduction](./01-Introduction.md)
 - [2. Mise en place](./02-Mise-en-place.md)
@@ -18,7 +18,7 @@ Nous allons vous présenter pendant ces sept chapitres l'utilisation de Wordpres
 
 [Download Wordpress](https://wordpress.org/download/)
 
-### Lesson
+### Présentation Canva
 
 [Workshop](https://www.canva.com/design/DAE5KkKIVtQ/X3Kml9sDvfnQoi6hOaeTRw/view?utm_content=DAE5KkKIVtQ&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
 

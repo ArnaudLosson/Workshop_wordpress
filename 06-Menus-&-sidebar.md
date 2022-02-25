@@ -6,7 +6,7 @@ Il y a deux façons de gérer les menus dans WordPress, soit en passant par Appa
 
 Mais pour le moment, comme l'on n'a pas déclaré de menus dans notre thème, vous ne trouverez pas ces entrées dans le Dashboard WordPress.
 
-POur déclarer un emplacement de menu écrivez dans `functions.php` :
+Pour déclarer un emplacement de menu écrivez dans `functions.php` :
 
 ```PHP
 <?php 
@@ -20,7 +20,7 @@ register_nav_menus( array(
 ) );
 ```
 
-On vient de déclarer nos emplacements de menu, ce qui aura pour effet d’afficher le menu Apparence > Menu dans notre administration WordPress. On va alors pouvoir créer un nouveau menu, et l’assigner à notre emplacement.
+On vient de déclarer nos emplacements de menu, ce qui aura pour effet d’afficher le menu Apparence > Menu dans notre administration WordPress. On va alors pouvoir créer un nouveau menu et l’assigner à notre emplacement.
 
 Modifiez le `header.php` : 
 
@@ -40,7 +40,7 @@ Modifiez le `header.php` :
   </header>
 ```
 
-vous pouvez maintenant aller dans le Dashboard et les menus devraient être accesible et modifiable, nous vous laissons le personalisé.
+Vous pouvez maintenant aller dans le Dashboard et les menus devraient être accessible et modifiable, nous vous laissons le personnalisé.
 
 ## Footer et moteur de recherche.
 
@@ -60,7 +60,7 @@ Occupons-nous désormais du `footer.php` :
 </html>
 ```
 
-Si on le souhaite, on peu ajouter un moteur de recherche dans le header grâce à ce code : 
+Si on le souhaite, on peut ajouter un moteur de recherche dans le header grâce à ce code : 
 
 ```PHP
 <?php get_search_form(); ?>
